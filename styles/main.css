@@ -40,23 +40,39 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  align-content: center;
   justify-content: space-between;
   width: 100%;
   max-height: 530px;
   padding: 30px 134px 0 204px;
-  gap: 15px;
+  /* gap: 15px; */
 }
 .home-featured_content {
-  width: 267px;
-  height: 203px;
   text-align: left;
+  align-self: center;
+  width: 567px;
+  height: 203px;
+  padding: 70px 80px 40px 15px;
 }
 .home-featured_content__text1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #888888;
+  text-transform: uppercase;
 }
 .home-featured_content__text2 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
 }
 .home-featured_content__text3 {
+  font-family: Montserrat;
+  font-weight: regular;
+  font-size: 18px;
+  line-height: 30px;
 }
 .home-featured_img {
-  width: auto;
 }
